@@ -1,0 +1,156 @@
+﻿namespace Игра
+{
+    partial class WinnerForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.VictoryLabel = new System.Windows.Forms.Label();
+            this.btnTryAgain = new System.Windows.Forms.Button();
+            this.btnMainMenu = new System.Windows.Forms.Button();
+            this.labelSeconds = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.labelMinutes = new System.Windows.Forms.Label();
+            this.labelDifficulty = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // VictoryLabel
+            // 
+            this.VictoryLabel.AutoSize = true;
+            this.VictoryLabel.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.VictoryLabel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.VictoryLabel.Font = new System.Drawing.Font("Poor Richard", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VictoryLabel.ForeColor = System.Drawing.Color.Gold;
+            this.VictoryLabel.Location = new System.Drawing.Point(52, 9);
+            this.VictoryLabel.Name = "VictoryLabel";
+            this.VictoryLabel.Size = new System.Drawing.Size(326, 73);
+            this.VictoryLabel.TabIndex = 0;
+            this.VictoryLabel.Text = "!!!Победа!!!";
+            // 
+            // btnTryAgain
+            // 
+            this.btnTryAgain.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTryAgain.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnTryAgain.Location = new System.Drawing.Point(36, 199);
+            this.btnTryAgain.Name = "btnTryAgain";
+            this.btnTryAgain.Size = new System.Drawing.Size(172, 31);
+            this.btnTryAgain.TabIndex = 5;
+            this.btnTryAgain.Text = "Сыграть еще раз";
+            this.btnTryAgain.UseVisualStyleBackColor = true;
+            this.btnTryAgain.Click += new System.EventHandler(this.btnTryAgain_Click);
+            // 
+            // btnMainMenu
+            // 
+            this.btnMainMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMainMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnMainMenu.Location = new System.Drawing.Point(227, 199);
+            this.btnMainMenu.Name = "btnMainMenu";
+            this.btnMainMenu.Size = new System.Drawing.Size(139, 31);
+            this.btnMainMenu.TabIndex = 6;
+            this.btnMainMenu.Text = "Главное меню";
+            this.btnMainMenu.UseVisualStyleBackColor = true;
+            this.btnMainMenu.Click += new System.EventHandler(this.btnMainMenu_Click);
+            // 
+            // labelSeconds
+            // 
+            this.labelSeconds.AutoSize = true;
+            this.labelSeconds.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelSeconds.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labelSeconds.Location = new System.Drawing.Point(348, 102);
+            this.labelSeconds.Name = "labelSeconds";
+            this.labelSeconds.Size = new System.Drawing.Size(27, 19);
+            this.labelSeconds.TabIndex = 27;
+            this.labelSeconds.Text = "00";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label3.Location = new System.Drawing.Point(336, 96);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(17, 26);
+            this.label3.TabIndex = 26;
+            this.label3.Text = ":";
+            // 
+            // labelMinutes
+            // 
+            this.labelMinutes.AutoSize = true;
+            this.labelMinutes.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelMinutes.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labelMinutes.Location = new System.Drawing.Point(314, 102);
+            this.labelMinutes.Name = "labelMinutes";
+            this.labelMinutes.Size = new System.Drawing.Size(27, 19);
+            this.labelMinutes.TabIndex = 25;
+            this.labelMinutes.Text = "00";
+            // 
+            // labelDifficulty
+            // 
+            this.labelDifficulty.AutoSize = true;
+            this.labelDifficulty.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelDifficulty.Location = new System.Drawing.Point(17, 102);
+            this.labelDifficulty.Name = "labelDifficulty";
+            this.labelDifficulty.Size = new System.Drawing.Size(167, 18);
+            this.labelDifficulty.TabIndex = 34;
+            this.labelDifficulty.Text = "Уровень пройден за";
+            // 
+            // WinnerForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ClientSize = new System.Drawing.Size(437, 242);
+            this.Controls.Add(this.labelDifficulty);
+            this.Controls.Add(this.labelSeconds);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.labelMinutes);
+            this.Controls.Add(this.btnMainMenu);
+            this.Controls.Add(this.btnTryAgain);
+            this.Controls.Add(this.VictoryLabel);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(453, 281);
+            this.MinimumSize = new System.Drawing.Size(453, 281);
+            this.Name = "WinnerForm";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.WinnerForm_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label VictoryLabel;
+        private System.Windows.Forms.Button btnTryAgain;
+        private System.Windows.Forms.Button btnMainMenu;
+        private System.Windows.Forms.Label labelSeconds;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelMinutes;
+        private System.Windows.Forms.Label labelDifficulty;
+    }
+}
